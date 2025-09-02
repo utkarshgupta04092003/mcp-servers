@@ -8,6 +8,9 @@
         },
         "googleCalendar": {
             "url": "http://127.0.0.1:3000/google-calendar/mcp"
+        },
+        "productHunt": {
+            "url": "http://127.0.0.1:3000/product-hunt/mcp"
         }
     },
     "inputs": []

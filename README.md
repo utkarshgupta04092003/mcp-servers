@@ -12,6 +12,11 @@ src/
 │  ├── helpers/
 │  │   └── db.ts               # Reusable helpers for use across multiple servers
 │  └── routes/                 # Each MCP server is added here
+│      ├── product-hunt/       # Product Hunt MCP server
+│      │   ├── fetchers.ts
+│      │   ├── queries.ts
+│      │   ├── index.ts
+│      │   └── tools.ts
 │      ├── google-calendar/    # Google Calendar MCP server
 │      │   ├── fetchers.ts
 │      │   ├── helpers.ts

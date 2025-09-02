@@ -2,6 +2,7 @@ import express from 'express'
 import bookInformationRoute from './_lib/routes/books-info'
 import googleCalendarRoute from './_lib/routes/google-calendar'
 import mcpTasksRoute from './_lib/routes/mcp-tasks'
+import productHuntRoute from './_lib/routes/product-hunt'
 
 const app = express()
 const PORT = 3000
@@ -13,5 +14,6 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/book-information', bookInformationRoute)
 app.use('/task-management', mcpTasksRoute)
 app.use('/google-calendar', googleCalendarRoute)
+app.use('/product-hunt', productHuntRoute)
 
 app.listen(PORT, () => console.warn(`Server is running at port ${PORT}`))
